@@ -1,24 +1,24 @@
-header, main, aside, footer {
+header, aside, main, footer {
   background-color: lightgray;
   border: 3px solid darkgray;
   margin: 15px;
 }
 
 header, footer {
-  height: 200px;
+  height: 150px;
 }
 
-main, aside {
+aside, main {
   height: 500px;
   float: left;
 }
 
-main {
-  width: 63%;
+aside {
+  width: 20%;
 }
 
-aside {
-  width: 30%;
+main {
+  width: 51%
 }
 
 .clearfix:after {
