@@ -1,11 +1,12 @@
 .logo, .navitem, main, .small, footer {
   background-color: lightgray;
   border: 3px solid darkgray;
-  margin: 15px;
+  box-sizing: border-box;
+  margin: 1%;
 }
 
 header {
-/*  height: 180px;*/
+  position: relative;
 }
 
 .logo {
@@ -16,8 +17,9 @@ header {
 
 nav {
   float: right;
-/*  height: 190px;*/
-/*  position: relative;*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .navitem {
@@ -25,8 +27,6 @@ nav {
   width: 80px;
   margin: 15px;
   float: right;
-/*  position: absolute;
-  top: 45px;*/
 }
 
 main {
@@ -36,7 +36,11 @@ main {
 .small {
   height: 180px;
   float: left;
-  width: 30%
+  width: 31%
+}
+
+#middle {
+  width: 32%;
 }
 
 .clearfix:after {
