@@ -1,0 +1,29 @@
+header, .section, footer {
+  background-color: lightgray;
+  border: 3px solid darkgray;
+  margin: 15px;
+}
+
+header, footer {
+  height: 75px;
+}
+
+.section {
+  float: left;
+}
+
+.big {
+  height: 300px;
+  width: 47%;
+}
+
+.small {
+  height: 150px;
+  width: 30%;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
