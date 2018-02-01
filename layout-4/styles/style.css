@@ -1,0 +1,50 @@
+.logo, .navitem, main, .small, footer {
+  background-color: lightgray;
+  border: 3px solid darkgray;
+  margin: 15px;
+}
+
+header {
+/*  height: 180px;*/
+}
+
+.logo {
+  height: 120px;
+  width: 200px;
+  float: left;
+}
+
+nav {
+  float: right;
+/*  height: 190px;*/
+/*  position: relative;*/
+}
+
+.navitem {
+  height: 80px;
+  width: 80px;
+  margin: 15px;
+  float: right;
+/*  position: absolute;
+  top: 45px;*/
+}
+
+main {
+  height: 200px;
+}
+
+.small {
+  height: 180px;
+  float: left;
+  width: 30%
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  height: 50px;
+}
