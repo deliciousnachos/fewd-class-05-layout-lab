@@ -25,7 +25,8 @@ nav {
 .navitem {
   height: 80px;
   width: 80px;
-  margin: 15px;
+  margin: 10px;
+
   float: right;
 }
 
